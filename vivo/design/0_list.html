@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+	<!-- hr color -->
+	<style>
+		hr {
+			background: rgb(0, 0, 0);
+			height: 00px;
+			border: 0;
+		}
+	</style>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -496,17 +504,68 @@
 
 			</div>
 			<!-- Page header ends -->
-			 <!-- Breadcrumb start -->
-			 <ol class="breadcrumb">
+			<!-- Breadcrumb start -->
+			<ol class="breadcrumb">
 				<li class="breadcrumb-item">
 					<i class="bi bi-house"></i>
-					<a href="index.html">Home</a>
+					<a href="index.html">Page 1</a>
 				</li>
-				<li class="breadcrumb-item">Tables</li>
-				<li class="breadcrumb-item breadcrumb-active" aria-current="page">Tables</li>
+				<li class="breadcrumb-item">Page 2</li>
+				<li class="breadcrumb-item breadcrumb-active" aria-current="page">Default</li>
 			</ol>
 			<!-- Breadcrumb end -->
+			<h2>Code</h2>
+			<from>
+				<table>
+					<thead>
+						<tr>
+							<th>
+								<select class="form-select" aria-label="Default select example" style="width: 200px;">
+									<option selected>N</option>
+									<option value="1">Y</option>
+								</select>
+							</th>
+							<td>
+								<select class="form-select" aria-label="Default select example" style="width: 200px;">
+									<option selected>Y</option>
+									<option value="1">N</option>
+								</select>
+							</td>
+							<td>
+								<select class="form-select" aria-label="Default select example" style="width: 200px;">
+									<option selected>수정일</option>
+									<option value="1">수정일</option>
+								</select>
+							</td>
+							<td>
+								<input type="date"
+									style="border-radius: 5px; border: 1px solid rgb(170, 176, 187);padding: 5px; box-sizing: border-box; width: 200px; height: 40px;">
+							</td>
+							<td>
+								<input type="date"
+									style="border-radius: 5px; border: 1px solid rgb(170, 176, 187);padding: 5px; box-sizing: border-box; width: 200px; height: 40px;">
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>
+								<select class="form-select" aria-label="Default select example" style="width: 200px;">
+									<option selected>검색구분</option>
+									<option value="1">검색구분</option>
+								</select>
+							</th>
+							<td>
+								<input type="text" placeholder="검색어"
+									style="border-radius: 5px; border: 1px solid rgb(170, 176, 187);padding: 5px; box-sizing: border-box; width: 200px; height: 40px;">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</from>
+			<hr style="color: rgb(206, 205, 205);">
 			<h4>Total: 171</h4>
+
 			<!-- Content wrapper scroll start -->
 			<div class="content-wrapper-scroll">
 
@@ -611,22 +670,34 @@
 						</div>
 					</div>
 					<!-- Row end -->
-
-					<!-- Row start -->
 				</div>
-				<!-- Row end -->
+				<!-- Content wrapper end -->
+
+				<!-- App Footer start -->
+				<div class="app-footer">
+					<span>© Bootstrap Gallery 2023</span>
+				</div>
+				<!-- App footer end -->
 
 			</div>
-			<!-- Content wrapper end -->
-
-			<!-- App Footer start -->
-			<div class="app-footer">
-				<span>© Bootstrap Gallery 2023</span>
-			</div>
-			<!-- App footer end -->
+			<!-- Content wrapper scroll end -->
 
 		</div>
-		<!-- Content wrapper scroll end -->
+		<!-- *************
+				************ Main container end *************
+			************* -->
+
+	</div>
+	<!-- Page wrapper end -->
+
+	<!-- App Footer start -->
+	<div class="app-footer">
+		<span>© Bootstrap Gallery 2023</span>
+	</div>
+	<!-- App footer end -->
+
+	</div>
+	<!-- Content wrapper scroll end -->
 
 	</div>
 	<!-- *************
@@ -652,6 +723,13 @@
 	<!-- Overlay Scroll JS -->
 	<script src="assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js"></script>
 	<script src="assets/vendor/overlay-scroll/custom-scrollbar.js"></script>
+
+	<!-- Data Tables -->
+	<script src="assets/vendor/datatables/dataTables.min.js"></script>
+	<script src="assets/vendor/datatables/dataTables.bootstrap.min.js"></script>
+
+	<!-- Custom Data tables -->
+	<script src="assets/vendor/datatables/custom/custom-datatables.js"></script>
 
 
 	<!-- Main Js Required -->
